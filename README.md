@@ -1,17 +1,17 @@
 # GBM-Biomarker-Analysis
-# 🧬 In Silico Biomarker Discovery in Glioblastoma (GBM)
+# In Silico Biomarker Discovery in Glioblastoma (GBM)
 
 A computational pipeline for identifying and validating potential biomarkers in Glioblastoma Multiforme (GBM) using publicly available transcriptomic data from NCBI GEO.
 
 ---
 
-## 🎯 Objective
+## Objective
 
 Glioblastoma Multiforme is the most aggressive primary brain tumor with a median survival of ~15 months. This project aims to identify differentially expressed genes (DEGs) in GBM versus normal brain tissue, understand their biological roles through pathway enrichment and network analysis, and validate candidate biomarkers using clinical survival data.
 
 ---
 
-## 🔬 Pipeline
+## Pipeline
 
 ```
 NCBI GEO Database
@@ -34,7 +34,7 @@ TCGA-GBM dataset | Overall Survival | Median cutoff
 
 ---
 
-## 🛠️ Tools Used
+## Tools Used
 
 | Tool | Purpose |
 |---|---|
@@ -47,7 +47,7 @@ TCGA-GBM dataset | Overall Survival | Median cutoff
 
 ---
 
-## 📊 Key Findings
+## Key Findings
 
 ### Upregulated Genes — Top Pathways
 Consistent across Reactome, KEGG, WikiPathways, MSigDB, BioCarta and more:
@@ -74,7 +74,7 @@ Consistent across Reactome, KEGG, WikiPathways, MSigDB, BioCarta and more:
 
 ---
 
-## 🔗 PPI Network Results
+## PPI Network Results
 
 ### Upregulated Hub Genes
 | Gene | Role |
@@ -108,28 +108,28 @@ Consistent across Reactome, KEGG, WikiPathways, MSigDB, BioCarta and more:
 
 ---
 
-## 📈 Survival Analysis Results (GEPIA2 — TCGA GBM)
+## Survival Analysis Results (GEPIA2 — TCGA GBM)
 
 ### Upregulated Genes
 | Gene | HR | p(HR) | Result |
 |---|---|---|---|
-| **CD44** | **1.4** | **0.048** | ✅ Significant |
-| RRM2 | 1.4 | 0.071 | ⚠️ Trend |
-| FOXM1 | 1.2 | 0.37 | ❌ NS |
-| CDK1 | 0.88 | 0.47 | ❌ NS |
-| EGFR | 1.0 | 0.90 | ❌ NS |
-| MELK | 1.2 | 0.43 | ❌ NS |
-| TOP2A | 0.84 | 0.34 | ❌ NS |
-| NDC80 | 1.0 | 0.79 | ❌ NS |
-| PBK | 1.1 | 0.48 | ❌ NS |
-| BIRC5 | 0.86 | 0.41 | ❌ NS |
+| **CD44** | **1.4** | **0.048** | Significant |
+| RRM2 | 1.4 | 0.071 | Trend |
+| FOXM1 | 1.2 | 0.37 | NS |
+| CDK1 | 0.88 | 0.47 | NS |
+| EGFR | 1.0 | 0.90 | NS |
+| MELK | 1.2 | 0.43 | NS |
+| TOP2A | 0.84 | 0.34 | NS |
+| NDC80 | 1.0 | 0.79 | NS |
+| PBK | 1.1 | 0.48 | NS |
+| BIRC5 | 0.86 | 0.41 | NS |
 
 ### Downregulated Genes
 All downregulated hub genes showed uniform expression loss across GBM samples consistent with global neuronal dedifferentiation, precluding survival stratification.
 
 ---
 
-## 💊 Drug Targets Identified
+## Drug Targets Identified
 
 Upregulated hub genes are targetable by existing compounds (HMS LINCS KinomeScan):
 
@@ -144,13 +144,13 @@ Upregulated hub genes are targetable by existing compounds (HMS LINCS KinomeScan
 
 ---
 
-## 🧠 Biological Summary
+## Biological Summary
 
 Upregulated genes in GBM converge on CDK1/FOXM1-driven cell cycle dysregulation with concurrent ECM remodeling and EMT activation — representing a hyperproliferative and invasive transcriptomic signature. CD44 emerged as the key independent prognostic biomarker (HR=1.4, p=0.048). Downregulated genes reflect complete silencing of normal neuronal function including GABA signaling, synaptic transmission and neuron differentiation — consistent with tumor dedifferentiation.
 
 ---
 
-## 📁 Repository Structure
+## Repository Structure
 
 ```
 📦 GBM-Biomarker-Analysis
@@ -169,7 +169,7 @@ Upregulated genes in GBM converge on CDK1/FOXM1-driven cell cycle dysregulation 
 
 ---
 
-## ⚙️ How to Reproduce
+## How to Reproduce
 
 All tools are free and web-based — no coding required:
 
@@ -181,7 +181,7 @@ All tools are free and web-based — no coding required:
 
 ---
 
-## 📚 References
+## References
 
 - Kuleshov MV et al. Enrichr. *Nucleic Acids Research*, 2016
 - Szklarczyk D et al. STRING v11. *Nucleic Acids Research*, 2019
@@ -190,10 +190,11 @@ All tools are free and web-based — no coding required:
 
 ---
 
-## 👤 Author
+## Author
 
 Ujjawal Srivastava
 Amity Institute of Biotechnology, Amity University
 ujjawalsrivastava2006@gmail.com 
+LinkedIn- www.linkedin.com/in/ujjawal-srivastava-b07128349
 
-Independent academic project — in silico bioinformatics pipeline for GBM biomarker discovery
+Independent academic project — In silico bioinformatics pipeline for GBM biomarker discovery.
